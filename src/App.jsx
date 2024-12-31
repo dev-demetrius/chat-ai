@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_KEY = "xOGEaH1oIJ1k1ZJPVcuyx6qf76ftjwePai0NsDwx"; 
+const API_KEY = ""; 
 
 function App() {
   const [userQuery, setUserQuery] = useState("");
@@ -34,7 +34,7 @@ function App() {
     try {
       // Call your API Gateway endpoint
       const response = await fetch(
-        "https://cjzestcpcf.execute-api.us-east-1.amazonaws.com/default/dem-bedrock-trigger",
+        "https://abcdxyz.execute-api.us-east-1.amazonaws.com/default/dem-bedrock-trigger",
         {
           method: "POST",
           headers: {
